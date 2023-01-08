@@ -1,6 +1,10 @@
 {
+    "name": "tetsuji-higashi/php-unit-actions",
+    "type": "project",
+    "description": "php unit tester",
+    "license": "proprietary",
     "require-dev": {
-        "phpunit/phpunit": "^5.5"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
