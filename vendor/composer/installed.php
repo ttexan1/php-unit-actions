@@ -1,24 +1,15 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
+        'name' => 'tetsuji-higashi/php-unit-actions',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '4f73cf958140f0913674e010bc5916a63f3ca8de',
-        'type' => 'library',
+        'reference' => 'db8d559458c81bd795306166e7647a9267f8d0e0',
+        'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '4f73cf958140f0913674e010bc5916a63f3ca8de',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'doctrine/instantiator' => array(
             'pretty_version' => '1.5.0',
             'version' => '1.5.0.0',
@@ -243,6 +234,15 @@
             'install_path' => __DIR__ . '/../symfony/yaml',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'tetsuji-higashi/php-unit-actions' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'db8d559458c81bd795306166e7647a9267f8d0e0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'webmozart/assert' => array(
             'pretty_version' => '1.11.0',
