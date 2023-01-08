@@ -22,5 +22,8 @@ class arithmeticTest extends TestCase{
     public function testDiv() {
         $this->assertEquals(5,$this->object->divide(10,2));
     }
+    public function testPower() {
+        $this->assertEquals(100,$this->object->power(10,2));
+    }
 }
 ?>

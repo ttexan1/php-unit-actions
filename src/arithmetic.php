@@ -14,5 +14,8 @@ class Arithmetic {
     public function divide($x,$y) {
         return ($x/$y);
     }
+    public function power($x,$y) {
+        return ($x ** $y);
+    }
 }
 ?>
