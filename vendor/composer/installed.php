@@ -3,7 +3,7 @@
         'name' => 'tetsuji-higashi/php-unit-actions',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'db8d559458c81bd795306166e7647a9267f8d0e0',
+        'reference' => '556d7de938710842c58390e8fcc98a4a8b127c02',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -238,7 +238,7 @@
         'tetsuji-higashi/php-unit-actions' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'db8d559458c81bd795306166e7647a9267f8d0e0',
+            'reference' => '556d7de938710842c58390e8fcc98a4a8b127c02',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
