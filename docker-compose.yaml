@@ -1,0 +1,6 @@
+version: '3'
+services:
+  ad:
+    build: .
+    volumes:
+      - .:/www/project
