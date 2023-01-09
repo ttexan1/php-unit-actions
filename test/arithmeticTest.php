@@ -3,27 +3,33 @@
 use PHPUnit\Framework\TestCase;
 use App\Arithmetic;
 
-class arithmeticTest extends TestCase{
+class arithmeticTest extends TestCase
+{
 
     protected $obj;
-    protected function setUp(): void {
+    protected function setUp(): void
+    {
         $this->object = new Arithmetic();
     }
 
-    public function testAdd() {
-        $this->assertEquals(5,$this->object->add(2,3));
+    public function testAdd()
+    {
+        $this->assertEquals(5, $this->object->add(2, 3));
     }
-    public function testSub() {
-        $this->assertEquals(5,$this->object->subtract(8,3));
+    public function testSub()
+    {
+        $this->assertEquals(5, $this->object->subtract(8, 3));
     }
-    public function testMulti() {
-        $this->assertEquals(6,$this->object->multiply(2,3));
+    public function testMulti()
+    {
+        $this->assertEquals(6, $this->object->multiply(2, 3));
     }
-    public function testDiv() {
-        $this->assertEquals(5,$this->object->divide(10,2));
+    public function testDiv()
+    {
+        $this->assertEquals(5, $this->object->divide(10, 2));
     }
-    public function testPower() {
-        $this->assertEquals(100,$this->object->power(10,2));
+    public function testPower()
+    {
+        $this->assertEquals(100, $this->object->power(10, 2));
     }
 }
-?>

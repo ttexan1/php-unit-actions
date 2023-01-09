@@ -14,4 +14,9 @@ RUN php composer-setup.php
 RUN php -r "unlink('composer-setup.php');"
 RUN mv composer.phar /usr/local/bin/composer
 
+# for debug
+RUN pecl install xdebug-3.1.6 \
+  && docker-php-ext-enable xdebug
+COPY xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
+
 WORKDIR /www/project
