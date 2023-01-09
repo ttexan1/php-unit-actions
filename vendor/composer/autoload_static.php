@@ -47,6 +47,7 @@ class ComposerStaticInit5ca58a8c5972a89c79c766fdaee28374
     );
 
     public static $classMap = array (
+        'App\\Arithmetic' => __DIR__ . '/../..' . '/src/arithmetic.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',

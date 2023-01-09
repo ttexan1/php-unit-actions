@@ -1,8 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-// use App\Arithmetic;
-require_once __DIR__ . '/../src/arithmetic.php';
+use App\Arithmetic;
 
 class arithmeticTest extends TestCase
 {
@@ -10,7 +9,7 @@ class arithmeticTest extends TestCase
     protected $obj;
     protected function setUp(): void
     {
-        $this->object = new App\Arithmetic();
+        $this->object = new Arithmetic();
     }
 
     public function testAdd()
