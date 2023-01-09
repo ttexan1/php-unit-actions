@@ -1,14 +1,16 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use App\Arithmetic;
+// use App\Arithmetic;
+require_once __DIR__ . '/../src/arithmetic.php';
 
-class arithmeticTest extends TestCase{
+class arithmeticTest extends TestCase
+{
 
     protected $obj;
     protected function setUp(): void
     {
-        $this->object = new Arithmetic();
+        $this->object = new App\Arithmetic();
     }
 
     public function testAdd()
