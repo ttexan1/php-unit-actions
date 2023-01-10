@@ -23,9 +23,12 @@ jobs:
 
       - name: Validate composer.json and composer.lock
         run: composer validate
+        working-directory: ./bundle
 
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress --no-suggest
+        working-directory: ./bundle
 
       - name: Run test suite
         run: php composer.phar run-script test
+        working-directory: ./bundle
